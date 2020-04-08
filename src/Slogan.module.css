@@ -1,0 +1,19 @@
+.slogan {
+    min-height: 20vh;
+    background-color: #fffcc2;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.slogan span {
+    font-size: 35px;
+}
+.slogan button {
+    font-size: 20px;
+}

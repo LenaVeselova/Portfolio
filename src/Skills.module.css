@@ -1,0 +1,24 @@
+.skills{
+    min-height: 100vh;
+    background-color: #bbff91;
+    display: flex;
+    justify-content: center;
+
+}
+.container {
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    justify-content: space-evenly;
+}
+
+.mySkills {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

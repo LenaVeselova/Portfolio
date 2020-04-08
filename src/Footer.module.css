@@ -1,0 +1,24 @@
+.footer{
+    height: 20vh;
+    background-color: #d2ffc3;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social ul {
+    display: flex;
+    padding: 0;
+}
+
+.social ul li {
+    list-style-type: none;
+    padding: 5px;
+}
