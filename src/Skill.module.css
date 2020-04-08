@@ -4,4 +4,5 @@
     background-color: darkgray;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
