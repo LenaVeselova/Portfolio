@@ -1,3 +1,5 @@
+
+
 .projects {
     min-height: 100vh;
     background-color: #a7ddfb;
@@ -10,10 +12,37 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+
+.container h2 {
+    margin: 60px;
 }
 
 .myProjects {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 360px) and (max-width: 760px) {
+    .container {
+        margin-bottom: 60px;
+    }
+
+    .myProjects {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 761px) and (max-width: 990px) {
+    .container {
+        margin-bottom: 60px;
+    }
+    .container h2 {
+        margin: 60px;
+    }
 }

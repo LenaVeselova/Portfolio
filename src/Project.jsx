@@ -4,11 +4,10 @@ import styles from './Project.module.css';
 const Project = props => {
   return (
     <div className={styles.project}>
-      <div>
-        <img src="" alt=""/>
-      </div>
-      <h3>{props.title}</h3>
-        {props.name}
+        <img src={props.image}/>
+      {/*  */}
+      {/*<h3>{props.title}</h3>*/}
+      {/*  {props.name}*/}
     </div>
   );
 }

@@ -1,19 +1,27 @@
 .slogan {
-    min-height: 20vh;
+    min-height: 35vh;
     background-color: #fffcc2;
     display: flex;
     justify-content: center;
 }
-.container {
+.slogan .container {
     width: 80%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 60px 0;
 }
 .slogan span {
-    font-size: 35px;
+    font-size: 33px;
+    text-align: center;
 }
 .slogan button {
     font-size: 20px;
+}
+
+@media (min-width: 360px) and (max-width: 760px) {
+    .slogan span {
+        font-size: 25px;
+    }
 }

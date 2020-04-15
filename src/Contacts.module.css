@@ -1,11 +1,11 @@
 .contacts {
     height: 100vh;
-    background-color: rgba(152, 154, 255, 0.37);
+    background-color: #cdc7ff;
     display: flex;
     justify-content: center;
 }
 
-.container {
+.contacts .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,10 +13,16 @@
     width: 80%;
 }
 
+.contacts .container h2 {
+    font-size: 35px;
+}
+
 .contacts .container form {
     display: flex;
     flex-direction: column;
     width: 40%;
+    min-width: 300px;
+    margin-top: -50px;
 }
 
 .contacts .container form input {
@@ -26,4 +32,25 @@
 
 .contacts .container button {
     font-size: 20px;
+}
+
+@media (min-width: 360px) and (max-width: 760px) {
+    .contacts {
+        height: 80vh;
+    }
+    .contacts .container {
+        width: 95%;
+        justify-content: center;
+    }
+    .contacts .container h2 {
+        font-size: 25px;
+    }
+    .contacts .container form {
+        width: 100%;
+        max-width: 540px;
+        margin-top: 35px;
+    }
+    .contacts .container button {
+        margin-top: 30px;
+    }
 }

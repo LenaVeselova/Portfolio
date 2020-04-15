@@ -1,9 +1,10 @@
 .project {
-    width: 350px;
-    height: 350px;
-    border: 1px solid;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin: 10px;
+}
+
+.project img {
+    width: 300px;
+    height: auto;
 }

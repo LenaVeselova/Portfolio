@@ -3,21 +3,33 @@
     background-color: #bbff91;
     display: flex;
     justify-content: center;
-
 }
+
 .container {
     width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
 }
 
-.container {
-    justify-content: space-evenly;
+.container h2 {
+    margin: 60px;
 }
 
 .mySkills {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 360px) and (max-width: 760px) {
+    .container {
+        width: 90%;
+    }
+    .mySkills {
+        flex-wrap: wrap;
+    }
 }
